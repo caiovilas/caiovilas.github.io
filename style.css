@@ -1,0 +1,98 @@
+body {
+	background-image: url(http://hdqwalls.com/wallpapers/bitcoin-cryptocurrency-5k-4t.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-size: contain;*/
+	background-position: center;
+	background-color: #000000;
+	background-attachment: fixed;
+}
+
+.topspacing, .maincontent, .maincontent2 {
+	display: flex;
+   	flex-direction: column;
+   	justify-content: center;
+   	align-items: center;
+   	margin-left: 3%;
+}
+
+.topspacing{
+	min-height: 62vh;
+}
+
+#wearedead {
+	color: white;
+   	font-family: 'Assistant', sans-serif;
+	text-transform: uppercase;
+	font-size: 2em;
+	line-height: 10px;
+}
+
+#aboutyour {
+	color: white;
+   	font-family: 'Assistant', sans-serif;
+	text-transform: uppercase;
+	font-size: 3em;
+}
+
+#aboutyou {
+	color: white;
+   	font-family: 'Assistant', sans-serif;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+.maincontent {
+	min-height: 25vh;
+   	margin-left: 3%;
+}
+
+.maincontent2{
+   	margin-left: 3%;
+}
+
+h1, h2 {
+	color: white;
+}
+
+h1 {
+	 
+	font-size: 7em;
+	margin: 0px;
+	line-height: 125px;
+	font-family: 'Sumana', serif;
+
+	animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.45);
+  }
+  20% {
+    text-shadow: 5px 5px 10px rgba(212,175,55,0.7);
+  }
+  40% {
+    text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.45);
+  }
+  100% {
+    text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.45);
+  }
+}
+
+h1:hover {
+	color: rgb(200,200,200);
+}
+
+h2 {
+	font-family: 'Assistant', sans-serif;
+	font-size: 2.0em;
+}
+
+.btn-dark {
+	background-color: #333333;
+	font-family: 'Assistant', sans-serif;
+	padding: 12px;
+	font-size: 150%;
+	text-transform: uppercase;
+}
