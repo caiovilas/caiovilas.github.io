@@ -1,0 +1,295 @@
+/*
+MARROM CLARO: #79423E
+MARROM ESCURO: #532A27;
+*/
+
+body, .bgnew, .static-header {
+	background-color: rgba(255,255,255,0.9) !important;
+}
+
+ul {
+	list-style: disc;
+	list-style-position: inside;
+}
+
+.sub-title, .alt {
+	color: white;
+}
+
+.highlight {
+	color:#79423E;
+}
+
+.base-clr-bg,
+.btn:hover,
+button:not(.default):hover,
+input[type=button]:not(.default):hover,
+input[type=submit]:not(.default):hover,
+.btn:focus,
+button:not(.default):focus,
+input[type=button]:not(.default):focus,
+input[type=submit]:not(.default):focus,
+.btn.hovered,
+button:not(.default).hovered,
+input[type=button]:not(.default).hovered,
+input[type=submit]:not(.default).hovered,
+.btn.btn-solid,
+button:not(.default).btn-solid,
+input[type=button]:not(.default).btn-solid,
+input[type=submit]:not(.default).btn-solid,
+.btn.btn-outline-color:hover,
+button:not(.default).btn-outline-color:hover,
+input[type=button]:not(.default).btn-outline-color:hover,
+input[type=submit]:not(.default).btn-outline-color:hover,
+.btn.btn-outline-color:focus,
+button:not(.default).btn-outline-color:focus,
+input[type=button]:not(.default).btn-outline-color:focus,
+input[type=submit]:not(.default).btn-outline-color:focus,
+.btn.btn-outline-color:active,
+button:not(.default).btn-outline-color:active,
+input[type=button]:not(.default).btn-outline-color:active,
+input[type=submit]:not(.default).btn-outline-color:active,
+.btn.btn-outline-color.hovered,
+button:not(.default).btn-outline-color.hovered,
+input[type=button]:not(.default).btn-outline-color.hovered,
+input[type=submit]:not(.default).btn-outline-color.hovered,
+.btn.btn-outline-color.pressed,
+button:not(.default).btn-outline-color.pressed,
+input[type=button]:not(.default).btn-outline-color.pressed,
+input[type=submit]:not(.default).btn-outline-color.pressed,
+.dropdown-menu li a:hover,
+.dropdown-menu li a:focus,
+.dropdown-menu li.active a,
+.dropdown-menu li.active a:hover,
+.dropdown-menu li.active a:focus,
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:active,
+.nav-tabs > li > a:focus,
+.nav-tabs.alt > li > a:hover,
+.nav-tabs.alt > li > a:active,
+.nav-tabs.alt > li > a:focus,
+.nav-tabs.alt > li.active a,
+.panel-group .panel .panel-heading a,
+.table > thead > tr > th,
+.thumb-wrapper .overlay,
+.progress-wrapper .progress .progress-bar,
+.team-member .overlay-wrapper:before,
+.team-member .socials-block > li a,
+.long-block,
+.featured-tab li.active > a .tab-info,
+.featured-tab li.active > a .tab-icon,
+.package-column:hover,
+.package-column.featured,
+.post-thumbnail a:after,
+.blog-tags .tags-item a:hover,
+.blog-tags .tags-item a:active,
+.blog-tags .tags-item a:focus,
+.product-list.material-view .product:hover .product-price-wrapper:before,
+.product-slider .bx-controls-direction a:hover,
+.cart-checkout-navigation-list > li:hover .cart-checkout-navigation-list-item-link:before,
+.cart-checkout-navigation-list > li.active .cart-checkout-navigation-list-item-link:before,
+.cart-list thead th:before,
+.payment-confirm .table thead th:before,
+.cart-list-item-meta:before,
+.cart-list-item-remove,
+.payment-method:before,
+.payment-method .pseudo-radio:after,
+.navigation-header .navigation-toggle .icon-bar,
+.fixed-menu .navigation-header .btn.btn-outline:hover,
+.fixed-menu .navigation-header .btn.btn-outline:active,
+.navigation-header.white-header .btn.btn-outline:hover,
+.navigation-header.white-header .btn.btn-outline:active,
+.static-header.waiting-list-version ul li:before,
+.color-landing-page .static-header,
+.color-landing-page .newsletter-section,
+.color-landing-page .feedback-section,
+.color-landing-page .footer {
+	background-color: #79423E;
+}
+
+
+.base-clr-txt,
+.highlight,
+a,
+.fa,
+.icon,
+blockquote:before,
+blockquote:after,
+.btn,
+button:not(.default),
+input[type=button]:not(.default),
+input[type=submit]:not(.default),
+.btn.btn-outline:active,
+button:not(.default).btn-outline:active,
+input[type=button]:not(.default).btn-outline:active,
+input[type=submit]:not(.default).btn-outline:active,
+.btn.btn-outline:hover,
+button:not(.default).btn-outline:hover,
+input[type=button]:not(.default).btn-outline:hover,
+input[type=submit]:not(.default).btn-outline:hover,
+.btn.btn-outline:focus,
+button:not(.default).btn-outline:focus,
+input[type=button]:not(.default).btn-outline:focus,
+input[type=submit]:not(.default).btn-outline:focus,
+.btn.btn-outline.hovered,
+button:not(.default).btn-outline.hovered,
+input[type=button]:not(.default).btn-outline.hovered,
+input[type=submit]:not(.default).btn-outline.hovered,
+.btn.btn-outline.pressed,
+button:not(.default).btn-outline.pressed,
+input[type=button]:not(.default).btn-outline.pressed,
+input[type=submit]:not(.default).btn-outline.pressed,
+.btn.btn-no-border:hover,
+button:not(.default).btn-no-border:hover,
+input[type=button]:not(.default).btn-no-border:hover,
+input[type=submit]:not(.default).btn-no-border:hover,
+.btn.btn-no-border:active,
+button:not(.default).btn-no-border:active,
+input[type=button]:not(.default).btn-no-border:active,
+input[type=submit]:not(.default).btn-no-border:active,
+.btn.btn-no-border:focus,
+button:not(.default).btn-no-border:focus,
+input[type=button]:not(.default).btn-no-border:focus,
+input[type=submit]:not(.default).btn-no-border:focus,
+.btn.btn-no-border.hovered,
+button:not(.default).btn-no-border.hovered,
+input[type=button]:not(.default).btn-no-border.hovered,
+input[type=submit]:not(.default).btn-no-border.hovered,
+.btn.btn-no-border.pressed,
+button:not(.default).btn-no-border.pressed,
+input[type=button]:not(.default).btn-no-border.pressed,
+input[type=submit]:not(.default).btn-no-border.pressed,
+.well h1,
+.well h2,
+.well h3,
+.well h4,
+.well h5,
+.well h6,
+.well .heading,
+.well .icon,
+.form.form-outline.form-outline-black .btn.btn-outline:hover,
+.form.form-outline.form-outline-black .btn.btn-outline:active,
+.team-member .name,
+.team-member .socials-block > li .fa,
+.featured-tab li > a .tab-title,
+.package-column .package-price,
+.countdown .counter:after,
+.countdown .counter .stat-info,
+.countdown .counter .stat,
+.post-title a:hover,
+.post-meta span > a:hover,
+.post-meta span > a:active,
+.post-meta span > a:focus,
+.product-list.material-view .product-controls .btn:hover,
+.product-list.material-view .product-controls .btn:active,
+.product-list.material-view .product-controls .btn:focus,
+.cart-checkout-navigation-list > li:hover .cart-checkout-navigation-list-item-link,
+.cart-checkout-navigation-list > li.active .cart-checkout-navigation-list-item-link,
+.cart-list-item-amount,
+.billing-details-form .result .cart-ammount,
+.navigation-header .navigation-bar > li:not(.featured) > a:hover,
+.navigation-header .navigation-bar.navigation-bar-left > li.active > a,
+.navigation-header .navigation-bar li.dropdown:not(.featured).opened > .dropdown-toggle,
+.navigation-header.white-dropdown .navigation-bar li.dropdown:not(.featured).opened > .dropdown-toggle,
+.navigation-header .navigation-bar li.dropdown:not(.featured) > .dropdown-menu > .dropdown.opened > .dropdown-toggle,
+.navigation-header.white-dropdown .navigation-bar li.dropdown:not(.featured) > .dropdown-menu > .dropdown.opened > .dropdown-toggle,
+.navigation-bar .dropdown-menu > li:hover > a,
+.fixed-menu .navigation-header .btn.btn-outline,
+.fixed-menu .navigation-header .navigation-bar.navigation-bar-left > li.active:not(.featured) > a,
+.fixed-menu .navigation-header.white-dropdown .navigation-bar.navigation-bar-left > li.active:not(.featured) > a,
+.navigation-header.white-header .btn.btn-outline,
+.footer .list-inline li .icon,
+.footer .list-unstyled li .icon,
+.social-icons li .social,
+.color-landing-page .guarantee-block,
+.color-landing-page .guarantee-section .fa,
+.color-landing-page .features-section .fa,
+.color-landing-page .guarantee-section .icon,
+.color-landing-page .features-section .icon,
+.package-column:hover > .package-detail .btn.btn-outline-color:hover,
+.package-column.featured > .package-detail .btn.btn-outline-color:hover,
+.package-column:hover > .package-detail .btn.btn-outline-color:focus,
+.package-column.featured > .package-detail .btn.btn-outline-color:focus {
+	color: #79423E;
+}
+
+
+/*form {
+	background-clip: padding-box;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.15);
+
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+
+    box-sizing: border-box;
+
+    display: block;
+
+}*/
+
+/*form input {
+	width: auto;
+    max-width: 205px;
+    height: 46px;
+    padding: 0 10px 0 20px;
+    line-height: 44px;
+    border-radius: 0;
+    background-clip: padding-box;
+    box-shadow: none;
+    margin: 0;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 17px;
+    color: #8d8d8d;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px 1px 1px 3px;
+    border-top-color: #d7d7d7;
+    border-right-color: #d7d7d7;
+    border-bottom-color: #d7d7d7;
+    outline: none;
+
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+}
+
+form button {
+    margin: 0;
+    float: right;
+    min-width: 55px;
+	max-width: 85px;
+    color: #ffffff;
+    border: none;
+    padding: 5px 5px;
+
+    background-color: #1ac6ff;
+
+
+    border-radius: 3px;
+    background-clip: padding-box; 
+    transition: color 0.2s ease, border 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1;
+
+    overflow: visible;
+
+    align-items: flex-start;
+    text-align: center;
+
+    padding: 5px 5px;
+}*/

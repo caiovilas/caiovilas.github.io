@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<title>Home</title>
+	<meta name="description" content="Startups template">
+	<meta name="keywords" content="Startups template">
+	<!-- <link rel="shortcut icon" href="assets/img/favicon.ico">
+	<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.jpg">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.jpg">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.jpg"> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/custom-animations.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/lib/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="style2.css">
+
+	<!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body id="landing-page" class="landing-page"><!-- waiting-list-page -->
+	<!-- Preloader -->
+	<div class="preloader-mask">
+		<div class="preloader">
+			<div class="spin base_clr_brd">
+				<div class="clip left">
+					<div class="circle">
+					</div>
+				</div>
+				<div class="gap">
+					<div class="circle">
+					</div>
+				</div>
+				<div class="clip right">
+					<div class="circle">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Header -->
+	<header>
+		<nav class="navigation navigation-header">
+			<div class="container">
+				<div class="navigation-brand">
+					<div class="brand-logo">
+						<a href="index.html" class="logo"></a><a href="index.html" class="logo logo-alt"></a>
+					</div>
+				</div>
+				<button class="navigation-toggle">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="navigation-navbar collapsed">
+					<ul class="navigation-bar navigation-bar-left">
+						<li><a href="#hero">Home</a></li>
+						<li><a href="#services">Serviços</a></li>
+						<li><a href="#features">Features</a></li>
+						<li><a href="#team">Quem Somos</a></li>
+						<li><a href="#footer">Fale Conosco</a></li>
+					</ul>
+					<ul class="navigation-bar navigation-bar-right">
+						<li><a href="register.html">Login</a></li>
+						<li class="featured"><a class="btn btn-sm btn-outline-color" href="register.html">Sign up</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<div id="hero" class="static-header window-height light-text hero-section image-version clearfix long-block bgnew"><!-- waiting-list-version -->
+		<div class="overlay"></div>
+		<div class="heading-block centered-block">
+			<div class="container">
+				<div class="container">
+					<div class="left-column col-lg-4 col-sm-5">
+						<h1><span class="highlight">BitChimp</span> Exchange</h1>
+						<p class="sub-title alt">Faça parte da Exchange que revolucionará o mercado de criptomoedas no Brasil:</p>
+						<ul>
+							<li>Alta liquidez através de Shared Order Book</li>
+							<li>Larga variedade de Altcoins e Mercados</li>
+							<li>Segurança Garantida</li>
+							<li>Compromisso de transparência e ética</li>
+						</ul>
+						<br>
+						<!-- <p class="sub-title alt">Assine nossa newsletter e fique por dentro de todas as novidades:</p>
+						<form>
+							<input type="email" placeholder="E-mail">
+							<button class="btn-solid">Enviar</button>
+						</form> -->
+					</div>
+					<div class="right-column col-lg-8 col-sm-7">
+						<img src="assets/img/features/rich_features_3.png" class="img-responsive" alt="bitchimp"><br><br>
+					</div>
+					<section>
+						<div class="container align-center" >
+							<div class="col-sm-12 col-lg-5 animated" data-animation="fadeInLeft" data-duration="500">
+								<article>
+									<h3>FIQUE POR DENTRO</h2>
+									 <p class="">Assine nossa newsletter e acompanhe as últimas notícias</p>
+								</article>
+							</div>
+						<div class="animated" data-animation="fadeInRight" data-duration="500">
+							<form class="form mailchimp-form subscribe-form" action="<?=$_SERVER['PHP_SELF']; ?>" method="post">
+								<div class="form-group form-inline">
+									<input size="15" type="text" class="form-control required" name="FULLNAME" placeholder="Nome" />
+									<input size="25" type="email" class="form-control required" name="EMAIL" placeholder="E-mail" />
+									<input type="submit" class="btn btn-outline" value="Assinar" />
+									<span class="response"><? require_once('assets/mailchimp/inc/store-address.php'); if($_GET['submit']){ echo storeAddress(); } ?></span>
+								</div>
+							</form>
+						</div>
+						<!-- <div class="col-sm-12 col-lg-7 animated" data-animation="fadeInRight" data-duration="500">
+							<form class=""  action="<?=$_SERVER['PHP_SELF']; ?>" method="post">
+								<div class="form-group form-inline">
+									<input size="15" type="text" class="form-control required" name="FULLNAME" placeholder="Nome" />
+									<input size="25" type="email" class="form-control required" name="EMAIL" placeholder="E-mail" />
+									<input type="submit" class="btn btn-outline" style="padding: 10px;" value="Assinar" />
+									<span class="response"><? require_once('assets/mailchimp/inc/store-address.php'); if($_GET['submit']){ echo storeAddress(); } ?></span>
+								</div>
+							</form>
+						</div> -->
+				</div>
+			</section>	
+				</div>
+			</div>
+
+			
+
+		</div>
+
+
+	</div>
+
+	<section id="services" class="section features-list-section align-center dark-text">
+		<div class="container">
+			<div class="clearfix animated" data-duration="500" data-animation="fadeInRight">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<article class="align-center">
+						<i class="icon icon-office-44 highlight"></i>
+						<span class="heading">ALTO NÍVEL DE SEGURANÇA</span>
+						<p class="">Armazenamento de dados dos usuários em sistemas de nível bancário, autenticação dinâmica, controle de identificação de risco, garantia de integridade das transações.</p>
+					</article>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<article class="align-center">
+						<i class="icon icon-shopping-18 highlight"></i>
+						<span class="heading">PROTEÇÃO DE CARTEIRAS</span>
+						<p class="">Carteiras multi-assinadas, protegidas por fortes camadas de criptografia. Armazenamento de cold-wallet offline em cofres bancários. </p>
+					</article>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<article class="align-center">
+						<i class="icon icon-seo-icons-27 highlight"></i>
+						<span class="heading">CONVENIÊNCIA E EFICIÊNCIA</span>
+						<p class="">Depósitos instantâneos, saques rápidos e eficientes, suportados por nossos sistemas de alto desempenho que lidam com até 10.000 ordens por segundo.</p>
+					</article>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<article class="align-center">
+						<i class="icon icon-office-24 highlight"></i>
+						<span class="heading">ALTA PERFORMANCE</span>
+						<p class="">Servidores dedicados de alta performance, distribuídos em clusteres de nível global, que garantem o melhor desempenho de nosso exclusivo sistema de negociações. </p>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="features" class="section features-section align-center inverted">
+		<div class="container">
+			<div class="section-content">
+				<div class="featured-tab">
+					<ul class="list-unstyled">
+						<li class="active">
+							<a href="#home" data-toggle="tab">
+								<div class="tab-info">
+									<div class="tab-title">Nós negociamos sua altcoin</div>
+									<div class="tab-desc">Orgulhosamente suportamos e oferecemos mercados com pares de diversas criptomoedas.</div>
+								</div>
+								<!--<div class="tab-icon"><span class="icon icon-multimedia-20"></span></div>-->
+							</a>
+						</li>
+						<li>
+							<a href="#profile" data-toggle="tab">
+								<div class="tab-info">
+									<div class="tab-title">Mercados com liquidez</div>
+									<div class="tab-desc">Livro de ordens integrado à três grandes exchanges internacionais.
+									</div>
+								</div>
+								<!--<div class="tab-icon"><span class="icon icon-seo-icons-27"></span></div>-->
+							</a>
+						</li>
+						<li>
+							<a href="#messages" data-toggle="tab">
+								<div class="tab-info">
+									<div class="tab-title">Sua satisfação em 1º lugar</div>
+									<div class="tab-desc">Nosso time de apoio à clientes estará sempre a sua disposição, por chat e telefone, 24 horas por dia.</div>
+								</div>
+								<!-- <div class="tab-icon"><span class="icon icon-seo-icons-28"></span></div>-->
+							</a>
+						</li>
+					</ul>
+
+					<div class="tab-content">
+						<div class="tab-pane in active" id="home"><img src="assets/img/features/rich_features_1.png" class="img-responsive animated" data-duration="900" data-animation="flip3dInTop" alt="macbook" /></div>
+						<div class="tab-pane" id="profile"><img src="assets/img/features/rich_features_2.png" class="img-responsive animated" data-duration="900" data-animation="roll3dInLeft" alt="macbook" /></div>
+						<div class="tab-pane" id="messages"><img src="assets/img/features/rich_features_3.png" class="img-responsive animated" data-duration="900" data-animation="fadeInRight" alt="macbook" /></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+<section id="newsletter" class="long-block newsletter-section light-text">
+	<div class="container align-center" >
+							<div class="col-sm-12 col-lg-5 animated" data-animation="fadeInLeft" data-duration="500">
+								<article>
+									<h3>FIQUE POR DENTRO</h3>
+									 <p class="">Assine nossa newsletter e acompanhe as últimas notícias</p>
+								</article>
+							</div>
+						<div class="animated" data-animation="fadeInRight" data-duration="500">
+							<form class="form mailchimp-form subscribe-form" action="<?=$_SERVER['PHP_SELF']; ?>" method="post">
+								<div class="form-group form-inline">
+									<input size="15" type="text" class="form-control required" name="FULLNAME" placeholder="Nome" />
+									<input size="25" type="email" class="form-control required" name="EMAIL" placeholder="E-mail" />
+									<input type="submit" class="btn btn-outline" value="Assinar" />
+									<span class="response"><? require_once('assets/mailchimp/inc/store-address.php'); if($_GET['submit']){ echo storeAddress(); } ?></span>
+								</div>
+							</form>
+						</div>
+				</section>
+
+	<section id="team" class="section team-section align-center dark-text">
+		<div class="container">
+			<div class="section-header">
+				<h2>QUEM <span class="highlight">SOMOS</span></h2>
+				<p class="sub-header">
+					Conheça nosso time, e tenha a certeza de estar lidando com profissionais de qualidade,
+					comprometidos em criar a melhor Exchange de Criptomoedas do Brasil
+				</p>
+			</div>
+			<div class="section-content row">
+				<div class="col-md-3 col-sm-3 col-xs-6 animated" data-animation="fadeInDown" data-duration="750">
+					<div class="team-member">
+						<div class="photo-wrapper">
+							<div class="overlay-wrapper">
+								<img src="assets/img/people/team-1.jpg" alt="">
+								<div class="overlay-content">
+									<div class="text-wrapper">
+										<div class="text-container">
+											<p>Formado em Economia pela FEA/USP, trabalha como Auditor Fiscal Sênior na Receita Federal do estado da Bahia. </p>
+										</div>
+									</div>
+									<ul class="socials-block">
+										<li><a href="#" class="email" title="Email"><i class="fa fa-envelope-o"></i></a></li>
+										<li><a href="#" class="twitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="#" class="facebook" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#" class="skype" title="Skype"><i class="fa fa-skype"></i></a></li>
+										<li><a href="#" class="linked_in" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<h5 class="name">César Lobo</h5>
+						<p class="position">Presidente</p>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-3 col-xs-6 animated" data-animation="fadeInUp" data-delay="500" data-duration="750">
+					<div class="team-member">
+						<div class="photo-wrapper">
+							<div class="overlay-wrapper">
+								<img src="assets/img/people/team-3.jpg" alt="">
+								<div class="overlay-content">
+									<div class="text-wrapper">
+										<div class="text-container">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+											consequat.</p>
+										</div>
+									</div>
+									<ul class="socials-block align-center">
+										<li><a href="#" class="skype" title="Skype"><i class="fa fa-skype"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<h5 class="name">Rafael Albuquerque</h5>
+						<p class="position">Desenvolvedor</p>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-3 col-xs-6 animated" data-animation="fadeInDown" data-delay="1000" data-duration="750">
+					<div class="team-member">
+						<div class="photo-wrapper">
+							<div class="overlay-wrapper">
+								<img src="assets/img/people/team-2.jpg" alt="">
+								<div class="overlay-content">
+									<div class="text-wrapper">
+										<div class="text-container">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non
+											proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										</div>
+									</div>
+									<ul class="socials-block align-center">
+										<li><a href="#" class="skype" title="Skype"><i class="fa fa-skype"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<h5 class="name">Adriana Moura</h5>
+						<p class="position">Analista de Marketing</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer id="footer" class="footer light-text">
+		<div class="container">
+			<div class="footer-content row">
+				<div class="col-sm-4 col-xs-12">
+					<div class="logo-wrapper">
+						<img width="130" height="31" src="assets/img/logo-white.png" alt="logo" />
+					</div>
+					<p>© 2018 BitChimp</p>
+					<p><strong>Cesar Lobo, Presidente</strong>.</p>
+				</div>
+				<div class="col-sm-5 social-wrap col-xs-12">
+					<strong class="heading">Redes Sociais</strong>
+					<ul class="list-inline socials">
+						<li><a href="#"><span class="icon icon-socialmedia-08"></span></a></li>
+						<li><a href="#"><span class="icon icon-socialmedia-07"></span></a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3 col-xs-12">
+					<strong class="heading">Fale Conosco</strong>
+					<ul class="list-unstyled">
+						<li><span class="icon icon-chat-messages-14"></span><a href="mailto:info@startup.ly">hello@bitchimp.com</a></li>
+						<li><span class="icon icon-seo-icons-34"></span>Avenida Paulista, 4325, Torre Maximiliano, São Paulo, SP - 03041-532</li>
+						<li><span class="icon icon-seo-icons-17"></span>(11) 2554-3468</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">© 2018 BitChimp. Todos os direitos reservados.</div>
+	</footer>
+
+	<div class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
+
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="assets/js/jquery-1.11.3.min.js?ver=1"></script>
+	<![endif]-->
+	<!--[if (gte IE 9) | (!IE)]><!-->
+		<script type="text/javascript" src="assets/js/jquery-2.1.4.min.js?ver=1"></script>
+	<!--<![endif]-->
+
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.appear.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.plugin.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.countdown.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="assets/js/toastr.min.js"></script>
+	<script type="text/javascript" src="assets/js/startuply.js"></script>
+</body>
+</html>
